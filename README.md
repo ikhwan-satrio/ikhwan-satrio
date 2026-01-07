@@ -10,6 +10,7 @@ A passionate Linux enthusiast who has explored multiple distributions:
 **Ubuntu** → **Debian** → **Arch** → **NixOS** (main)
 
 ![Linux Ricing](./assets/ricing.png)
+![Linux Ricing2](./assets/ricing2.png)
 
 ![Snake animation](https://github.com/wanto-production/wanto-production/blob/output/snake.svg)
 
