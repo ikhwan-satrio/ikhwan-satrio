@@ -1,9 +1,9 @@
 # 👋 Hello, I'm Ikhwan Satrio
-### 🧑‍💻 Frontend Developer • Open Source Enthusiast • Linux Enthusiast • Lifelong Learner
+### 🧑‍💻 Software Engginer • Open Source Enthusiast • Linux Enthusiast • Lifelong Learner
 
 > _"Code is my canvas, and ambition is my fuel."_
 
-I build fast, accessible, and user-friendly web experiences using modern frameworks like **SvelteKit**, **Astro**, and **Qwik**. Passionate about clean code, performance, and open-source collaboration.
+I build fast, accessible, and user-friendly web experiences using modern frameworks like **SvelteKit**, **Nextjs**, and **Astro**. Passionate about clean code, performance, and open-source collaboration.
 
 ## 🐧 Linux Journey
 A passionate Linux enthusiast who has explored multiple distributions:
@@ -51,10 +51,11 @@ A passionate Linux enthusiast who has explored multiple distributions:
 ---
 
 ## 🌱 Currently
-- Building performant web apps with **SvelteKit** & **Qwik**
+- Building performant web apps with **SvelteKit**
 - Exploring **Rust** for WASM and tooling
 - Contributing to open-source projects
 - Writing technical notes on [my portfolio](https://portofolio-wanto.vercel.app)
+- focus on working on the [myuanggwe](https://myuanggwe.vercel.app) project
 
 ---
 
