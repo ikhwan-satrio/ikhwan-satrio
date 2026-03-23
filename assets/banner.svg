@@ -1,0 +1,109 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#11151c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0d12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cba6f7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#89b4fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#94e2d5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cba6f7" />
+      <stop offset="100%" style="stop-color:#89b4fa" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1f26" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bgGrad)" rx="16"/>
+  <!-- Grid overlay -->
+  <rect width="900" height="280" fill="url(#grid)" rx="16" opacity="0.6"/>
+
+  <!-- Decorative blobs -->
+  <ellipse cx="780" cy="60" rx="120" ry="80" fill="#cba6f7" opacity="0.04"/>
+  <ellipse cx="820" cy="220" rx="100" ry="60" fill="#89b4fa" opacity="0.05"/>
+  <ellipse cx="100" cy="200" rx="90" ry="60" fill="#94e2d5" opacity="0.04"/>
+
+  <!-- Left accent line -->
+  <rect x="40" y="50" width="3" height="180" fill="url(#accentGrad)" rx="2" filter="url(#glow)"/>
+
+  <!-- Terminal dots (top left decoration) -->
+  <circle cx="64" cy="38" r="5" fill="#f38ba8"/>
+  <circle cx="82" cy="38" r="5" fill="#f9e2af"/>
+  <circle cx="100" cy="38" r="5" fill="#a6e3a1"/>
+
+  <!-- Terminal bar hint -->
+  <rect x="40" y="26" width="820" height="24" fill="#1a1f26" rx="8" opacity="0.8"/>
+  <text x="120" y="42" font-family="monospace" font-size="11" fill="#45475a">~/github/wanto-production/README.md</text>
+
+  <!-- Greeting -->
+  <text x="64" y="98" font-family="monospace" font-size="13" fill="#6c7086">
+    <tspan fill="#a6e3a1">❯</tspan>  whoami
+  </text>
+
+  <!-- Name -->
+  <text x="64" y="148" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="url(#nameGrad)" filter="url(#softglow)" letter-spacing="-0.5">Ikhwan Satrio</text>
+
+  <!-- Divider line under name -->
+  <rect x="64" y="158" width="380" height="2" fill="url(#accentGrad)" rx="1" opacity="0.6"/>
+
+  <!-- Role tags -->
+  <!-- Tag 1 -->
+  <rect x="64" y="170" width="130" height="22" rx="11" fill="#1a1f26" stroke="#cba6f7" stroke-width="1" opacity="0.9"/>
+  <text x="74" y="185" font-family="monospace" font-size="11" fill="#cba6f7">⚙  Software Engineer</text>
+
+  <!-- Tag 2 -->
+  <rect x="202" y="170" width="140" height="22" rx="11" fill="#1a1f26" stroke="#89b4fa" stroke-width="1" opacity="0.9"/>
+  <text x="212" y="185" font-family="monospace" font-size="11" fill="#89b4fa">⬡  Open Source</text>
+
+  <!-- Tag 3 -->
+  <rect x="350" y="170" width="130" height="22" rx="11" fill="#1a1f26" stroke="#94e2d5" stroke-width="1" opacity="0.9"/>
+  <text x="360" y="185" font-family="monospace" font-size="11" fill="#94e2d5">🐧 Linux Enthusiast</text>
+
+  <!-- Quote -->
+  <text x="64" y="220" font-family="Georgia, serif" font-size="13" fill="#6c7086" font-style="italic">"Code is my canvas, and ambition is my fuel."</text>
+
+  <!-- Description -->
+  <text x="64" y="248" font-family="monospace" font-size="11.5" fill="#8b949e">Building fast, accessible web experiences with</text>
+  <text x="64" y="264" font-family="monospace" font-size="11.5">
+    <tspan fill="#f38ba8">SvelteKit</tspan>
+    <tspan fill="#6c7086"> · </tspan>
+    <tspan fill="#cdd6f4">Next.js</tspan>
+    <tspan fill="#6c7086"> · </tspan>
+    <tspan fill="#fab387">Astro</tspan>
+    <tspan fill="#6c7086"> — and loving every pixel of it.</tspan>
+  </text>
+
+  <!-- Right side: NixOS snowflake decorative -->
+  <g transform="translate(720, 140)" opacity="0.12">
+    <text font-family="serif" font-size="110" fill="#89b4fa" text-anchor="middle">❄</text>
+  </g>
+
+  <!-- Corner accent dots -->
+  <circle cx="858" cy="26" r="3" fill="#cba6f7" opacity="0.4"/>
+  <circle cx="872" cy="26" r="3" fill="#89b4fa" opacity="0.4"/>
+  <circle cx="886" cy="26" r="3" fill="#94e2d5" opacity="0.4"/>
+
+  <!-- Bottom border glow -->
+  <rect x="40" y="272" width="820" height="2" fill="url(#accentGrad)" rx="1" opacity="0.3"/>
+</svg>

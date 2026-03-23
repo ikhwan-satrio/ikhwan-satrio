@@ -1,9 +1,6 @@
-# 👋 Hello, I'm Ikhwan Satrio
-### 🧑‍💻 Software Engginer • Open Source Enthusiast • Linux Enthusiast • Lifelong Learner
-
-> _"Code is my canvas, and ambition is my fuel."_
-
-I build fast, accessible, and user-friendly web experiences using modern frameworks like **SvelteKit**, **Nextjs**, and **Astro**. Passionate about clean code, performance, and open-source collaboration.
+<div align="center">
+  <img src="./assets/banner.svg" alt="Ikhwan Satrio Banner" width="100%"/>
+</div>
 
 ## 🐧 Linux Journey
 A passionate Linux enthusiast who has explored multiple distributions:
