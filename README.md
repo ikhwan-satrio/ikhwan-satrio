@@ -20,23 +20,23 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│   Linux Journey                                                             │
+│   Linux Journey                                                            │
 │  ┗━━ Ubuntu → Debian → Arch → NixOS (main)                                   │
 │                                                                              │
-│   Currently                                                                 │
+│   Currently                                                                │
 │  ┣━━ Building performant web apps with SvelteKit                             │
 │  ┣━━ Exploring Rust for WASM and tooling                                     │
 │  ┣━━ Contributing to open-source projects                                    │
 │  ┣━━ Writing technical notes on portfolio                                    │
 │  ┗━━ Focus on working on the myuanggwe project                               │
 │                                                                              │
-│   Stack                                                                     │
+│   Stack                                                                    │
 │  ┣━━ Languages: JavaScript · TypeScript · Python · PHP · Go · Rust           │
 │  ┣━━ Frameworks: SvelteKit · Next.js · Astro · Nuxt · Tailwind · Tauri       │
 │  ┣━━ Tools: Neovim · Podman · NixOS                                          │
 │  ┗━━ Other: Web performance · SSG & edge rendering · CLI tools · OSS         │
 │                                                                              │
-│   Connect                                                                   │
+│   Connect                                                                  │
 │  ┣━━ linkedin.com/in/ikhwan-satrio                                           │
 │  ┣━━ github.com/ikhwan-satrio                                                │
 │  ┣━━ ikwansatria3974@gmail.com                                               │
