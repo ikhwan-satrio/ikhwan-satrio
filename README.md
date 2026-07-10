@@ -17,32 +17,6 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
-
- ```
- ┌──────────────────────────────────────────────────────────────────────────────┐
-+│   Linux Journey                                                            │
- │  ┗━━ Ubuntu → Debian → Arch → NixOS (main)                                   │
- │                                                                              │
-+│   Currently                                                                │
- │  ┣━━ Building performant web apps with SvelteKit                             │
- │  ┣━━ Exploring Rust for WASM and tooling                                     │
- │  ┣━━ Contributing to open-source projects                                    │
- │  ┣━━ Writing technical notes on portfolio                                    │
- │  ┗━━ Focus on working on the myuanggwe project                               │
- │                                                                              │
-+│   Stack                                                                    │
- │  ┣━━ Languages: JavaScript · TypeScript · Python · PHP · Go · Rust           │
- │  ┣━━ Frameworks: SvelteKit · Next.js · Astro · Nuxt · Tailwind · Tauri       │
- │  ┣━━ Tools: Neovim · Podman · NixOS                                          │
- │  ┗━━ Other: Web performance · SSG & edge rendering · CLI tools · OSS         │
- │                                                                              │
-+│   Connect                                                                  │
- │  ┣━━ linkedin.com/in/ikhwan-satrio                                           │
- │  ┣━━ github.com/ikhwan-satrio                                                │
- │  ┣━━ ikwansatria3974@gmail.com                                               │
- │  ┗━━ wa.me/6285211584038                                                     │
- └──────────────────────────────────────────────────────────────────────────────┘
- ```
  
 ## 🦀 About me 
 ```rust
