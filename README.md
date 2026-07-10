@@ -48,7 +48,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│   Fun fact                                                                  │
+│   Fun fact                                                                 |
 │  ┗━━ I believe the best code is not just functional — it's readable,         │
 │      maintainable, and kind to the next developer.                           │
 │                                                                              │
