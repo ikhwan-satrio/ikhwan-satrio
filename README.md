@@ -44,8 +44,6 @@
  └──────────────────────────────────────────────────────────────────────────────┘
  ```
  
- ![Snake animation](https://github.com/wanto-production/wanto-production/blob/output/snake.svg)
-+++++++ pklwkntq 46795b9b "update readme" (rebased revision)
 ## 🦀 About me 
 ```rust
 
@@ -113,7 +111,6 @@ impl Social {
     }
 }
 ```
->>>>>>> conflict 1 of 1 ends
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
